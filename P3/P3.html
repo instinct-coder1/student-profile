@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P3: Feature-branch Git workflow</title>
+  <style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6fb;color:#222;line-height:1.6}
+header{background:#243b64;color:white;padding:22px}
+main{max-width:850px;margin:25px auto;padding:20px;background:white;border-radius:8px}
+h1,h2{color:#243b64}header h1{color:white}
+pre{background:#202938;color:#f4f6fb;padding:15px;border-radius:6px;overflow-x:auto}
+.note{background:#edf2ff;padding:12px;border-left:4px solid #315fce}
+footer{text-align:center;padding:15px;color:#666}
+</style>
+</head>
+<body>
+  <header><h1>Practical 3</h1><p>Feature-branch Git workflow</p></header><main><h2>Aim</h2><p>To create a feature branch and save changes separately from the main branch.</p><h2>Commands</h2><pre>git switch -c feature/about-page
+# Make a change in a project file
+git status
+git add .
+git commit -m "Add about page"
+git push -u origin feature/about-page
+git switch main</pre><h2>Explanation</h2><ul><li>A branch is a separate line of development.</li><li><b>git switch -c</b> creates and opens a new branch.</li><li><b>git add</b> stages the changed files.</li><li><b>git commit</b> saves the changes.</li><li><b>git push</b> uploads the branch to GitHub.</li></ul><h2>Merge the feature</h2><p>After checking the work, create a pull request on GitHub. Review it and merge it into the main branch.</p><h2>Result</h2><p>I learned how to work on a feature branch without directly changing the main branch.</p></main><footer>Muhammad Razin Shaikh | USN: 2392608288</footer>
+</body>
+</html>
