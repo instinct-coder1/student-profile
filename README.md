@@ -1,26 +1,44 @@
-# Muhammad Razin Shaikh — Student Portfolio
+# Programming for Web Development - I Laboratory
 
-**Course:** B.Tech CSE (AI & ML)  
+**Student:** Muhammad Razin Shaikh  
 **Institution:** BossCoder School of Technology  
+**Programme:** B.Tech CSE (AI & ML)  
 **USN:** 2392608288  
 **GitHub:** [instinct-coder1](https://github.com/instinct-coder1)
 
-A student portfolio for **Programming for Web Development - I Laboratory**, covering practicals P1–P13.
+## Important folder structure
 
-## Practical list
-P1 Terminal navigation · P2 Initial commit · P3 Feature branches · P4 README and tags · P5 Semantic bio · P6 Semantic portfolio · P7 CSS design tokens · P8 CSS positioning · P9 Responsive Flexbox · P10 Header and footer Flexbox · P11 Three-column Grid · P12 Projects Grid · P13 Flexbox vs Grid.
+Every practical has its own folder. The code and explanation for one practical are kept separate from the others. There is no single combined portfolio page for all practicals.
 
-Detailed notes are in the `practicals/` folder.
+| Practical | Folder/file | Topic |
+|---|---|---|
+| P1 | [P1/P1.md](P1/P1.md) | Project folder and terminal navigation |
+| P2 | [P2/P2.md](P2/P2.md) | Portfolio repo with an initial commit |
+| P3 | [P3/P3.md](P3/P3.md) | Feature-branch Git workflow |
+| P4 | [P4/P4.md](P4/P4.md) | GitHub README and version tags |
+| P5 | [P5/P5.html](P5/P5.html) | Semantic bio page |
+| P6 | [P6/P6.html](P6/P6.html) | Full portfolio page in semantic HTML |
+| P7 | [P7/P7.html](P7/P7.html) | CSS design tokens and typography |
+| P8 | [P8/P8.html](P8/P8.html) | Sticky navbar and card overlay |
+| P9 | [P9/P9.html](P9/P9.html) | Responsive navbar and card grid with Flexbox |
+| P10 | [P10/P10.html](P10/P10.html) | Header and footer with Flexbox |
+| P11 | [P11/P11.html](P11/P11.html) | Newspaper-style three-column CSS Grid |
+| P12 | [P12/P12.html](P12/P12.html) | Portfolio projects grid |
+| P13 | [P13/P13.html](P13/P13.html) | Flexbox vs CSS Grid |
 
-## Projects
-- [GPA Calculator](https://github.com/instinct-coder1/gpa-calculator) — browser-based SGPA/CGPA calculator.
-- [Handwritten Digit Recognizer](https://github.com/instinct-coder1/handwritten-digit-recognizer) — handwritten digit recognition project.
-- [My Student Portfolio](https://github.com/instinct-coder1/my-student-portfolio) — an earlier portfolio repository.
+## How to run the HTML practicals
 
-## Run locally
-Clone or download the repository, then open `index.html` in a browser. You can also use VS Code Live Server. No package installation is required.
+1. Open the practical folder, for example `P5`.
+2. Open its HTML file in a browser.
+3. To edit it, open that practical's file in VS Code.
+4. Each HTML practical contains its own page markup and CSS, so it can be tested independently.
 
-## Technologies
-HTML5, CSS3, JavaScript, Git and GitHub.
+## Other GitHub projects
 
-Review the code and practical notes before your lab evaluation so you can explain the work.
+- [GPA Calculator](https://github.com/instinct-coder1/gpa-calculator)
+- [Handwritten Digit Recognizer](https://github.com/instinct-coder1/handwritten-digit-recognizer)
+- [My Student Portfolio](https://github.com/instinct-coder1/my-student-portfolio)
+
+## Note
+
+P1–P4 contain terminal/Git commands and explanations. Run the commands in your own terminal during the practical demonstration. P5–P13 are independent HTML exercises and can be opened separately in a browser.
