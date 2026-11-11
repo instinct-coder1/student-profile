@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2: Portfolio repository with an initial commit</title>
+  <style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6fb;color:#222;line-height:1.6}
+header{background:#243b64;color:white;padding:22px}
+main{max-width:850px;margin:25px auto;padding:20px;background:white;border-radius:8px}
+h1,h2{color:#243b64}header h1{color:white}
+pre{background:#202938;color:#f4f6fb;padding:15px;border-radius:6px;overflow-x:auto}
+.note{background:#edf2ff;padding:12px;border-left:4px solid #315fce}
+footer{text-align:center;padding:15px;color:#666}
+</style>
+</head>
+<body>
+  <header><h1>Practical 2</h1><p>Portfolio repository with an initial commit</p></header><main><h2>Aim</h2><p>To create a Git repository for a portfolio project and make its first commit.</p><h2>Commands</h2><pre>mkdir my-portfolio
+cd my-portfolio
+git init
+echo "# My Portfolio" > README.md
+git status
+git add README.md
+git commit -m "Initial commit"</pre><h2>Explanation</h2><ul><li><b>git init</b> starts Git in the project folder.</li><li><b>git status</b> shows the current file status.</li><li><b>git add</b> selects files for saving.</li><li><b>git commit</b> saves the selected changes.</li></ul><h2>Connect to GitHub</h2><pre>git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git push -u origin main</pre><p>Replace the sample URL with the URL of the GitHub repository you created.</p><h2>Result</h2><p>A local portfolio repository is created and its first commit is saved. The final commands show how to upload it to GitHub.</p></main><footer>Muhammad Razin Shaikh | USN: 2392608288</footer>
+</body>
+</html>
