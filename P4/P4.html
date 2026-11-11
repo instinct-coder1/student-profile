@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P4: GitHub README and version tags</title>
+  <style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6fb;color:#222;line-height:1.6}
+header{background:#243b64;color:white;padding:22px}
+main{max-width:850px;margin:25px auto;padding:20px;background:white;border-radius:8px}
+h1,h2{color:#243b64}header h1{color:white}
+pre{background:#202938;color:#f4f6fb;padding:15px;border-radius:6px;overflow-x:auto}
+.note{background:#edf2ff;padding:12px;border-left:4px solid #315fce}
+footer{text-align:center;padding:15px;color:#666}
+</style>
+</head>
+<body>
+  <header><h1>Practical 4</h1><p>GitHub README and version tags</p></header><main><h2>Aim</h2><p>To write a README file for a GitHub project and create a version tag.</p><h2>Example README.md</h2><pre># My Portfolio
+
+## About
+This is my student portfolio project.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+
+## How to run
+Open index.html in a web browser.
+
+## Author
+Muhammad Razin Shaikh</pre><h2>Git commands for version tags</h2><pre>git add README.md
+git commit -m "Add project README"
+git tag -a v1.0 -m "First version"
+git push origin main
+git push origin v1.0
+git tag</pre><h2>Explanation</h2><p>A README file explains the project, technologies and steps to run it. A Git tag gives a name to a particular version of the project.</p><h2>Result</h2><p>I learned the basic structure of a README file and the commands used to create and upload a version tag.</p></main><footer>Muhammad Razin Shaikh | USN: 2392608288</footer>
+</body>
+</html>
